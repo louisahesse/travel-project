@@ -23,7 +23,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 400px;
   display: block;
 }
 .img-restaurant {
@@ -34,9 +34,17 @@ body {
   max-width: 125px;
   display: block;
 }
+.embed {
+  width: 130px;
+  aspect-ratio: 1 /1;
+}
+
 .card {
   background: white;
   margin: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
 }
 .card-body {
   padding: 30px;
@@ -221,5 +229,11 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16 /9;
   }
 }

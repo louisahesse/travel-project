@@ -27,12 +27,14 @@ body {
   display: block;
 }
 .img-restaurant {
-  max-width: 140px;
+  max-width: 180px;
   display: block;
 }
-.img-restaurant-pelican {
-  max-width: 125px;
+
+.img-london {
   display: block;
+  max-width: 300px;
+  text-align: center;
 }
 .embed {
   width: 130px;
@@ -231,7 +233,7 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
-  section {
+  img {
     padding: 30px;
   }
   .card-header img {
